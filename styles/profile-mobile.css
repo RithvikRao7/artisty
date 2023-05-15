@@ -1,0 +1,101 @@
+
+
+@media only screen and (max-width: 1150px){
+    .user-status span{
+        font-size: 25px;
+    }
+    .profile{
+        padding: 3px;
+    }
+    .right-section {
+        margin: 25px 5px 0px 0px;
+        padding: 0px 5px 0px 15px;
+    }
+    .left-section {
+        margin: 25px 0px 25px 10px;
+        height: auto;
+    }
+    .profile-desc {
+        flex-direction: column;
+    }
+    #curve_chart{
+        width: 50vw; height: 27vh;
+        }
+}
+@media only screen and (max-width: 950px){
+    .user-status span{
+        font-size: 23px;
+    }
+    .right-section {
+        margin: 10px;
+        padding: 5px;
+    }
+    .left-section {
+        margin: 15px;
+        padding: 5px;
+
+        height: auto;
+    }
+}
+@media only screen and (max-width: 850px){
+    .user-status span{
+        font-size: 28px;
+    }
+    .profile{
+        grid-template-columns: 1fr;
+    }
+    .profile-desc {
+        flex-direction: row;
+    }
+    .user-status{
+        justify-items: center;
+    }
+    #curve_chart{
+        width: 85vw; height: 40vh;
+        }
+        .reach-graph {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    .works{
+        margin-bottom: 20px;
+    }
+    .works-paragraph {
+        
+        font-size: 17px;
+        line-height: 17px;
+        
+    }
+
+}
+@media only screen and (max-width: 500px){
+    #curve_chart{
+        width: 90vw; height: 30vh;
+        }
+        .user-status span{
+            font-size: 23px;
+        }
+    .description-para{
+        font-size: 18px;
+    }
+    .profile-desc {
+        flex-direction: column;
+    }
+    .left-section {
+        margin: 5px;
+        padding: 5px;
+        height: auto;
+    }
+    .right-section {
+        margin: 0px;
+        padding: 5px;
+    }
+    .heading{
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .dummy {
+        margin-right: 5px;
+    }
+}
+
