@@ -327,7 +327,7 @@ border-radius: 6px;
 }
 .myclub h3,.latest-activity h3,.trending-space h3{
     margin: 15px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato-SemiBold', sans-serif;
 }
 .profile-details h1{
     font-family: 'Lato-SemiBold', sans-serif;
@@ -336,7 +336,7 @@ font-size: 18px;
 }
 .profile-details p{
     font-weight: 400;
-font-size: 14px;
+font-size: 13px;
 font-family: 'Lato-Thin', sans-serif;
 
 }
